@@ -1,5 +1,5 @@
 <launch>
-	<node pkg = 'topics'
+	<node pkg = 'topics_pkg'
 	type = 'simple_topic_publisher.py'
 	name = 'topic_publisher'
 	output = 'screen' />
