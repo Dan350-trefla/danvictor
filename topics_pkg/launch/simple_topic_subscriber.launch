@@ -1,0 +1,7 @@
+<launch>
+	<node pkg = 'topics'
+	type = 'simple_topic_subscriber.py'
+	name = 'topic_subscriber'
+	output = 'screen' />
+	<include file = "$(find topics_pkg)/launch/simple_topic_publisher.launch"/>
+</launch>
