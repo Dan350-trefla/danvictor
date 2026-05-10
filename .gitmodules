@@ -1,0 +1,3 @@
+[submodule "diffbot"]
+	path = diffbot
+	url = git@github.com:/ros-mobile-robots/diffbot
