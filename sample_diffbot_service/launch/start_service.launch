@@ -1,0 +1,4 @@
+<launch>
+    <node pkg = "sample_diffbot_service" type = "move_in_square_service_server.py" name="diffbot_move_in_square" output = "screen">
+    </node>
+</launch>
