@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find services_quiz)/launch/start_service.launch"/>
+
+    <node pkg = "services_quiz" type = "service_client.py" name = "make_circle_demo" output = "screen">
+    </node>
+</launch>
